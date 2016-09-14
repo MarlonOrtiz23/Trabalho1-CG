@@ -1,0 +1,13 @@
+Distance: Person 1: 19.0 meters (real: 18.664962922319635 meters) | Speed: 0.06689950868214922 meters/frames
+Distance: Person 2: 15.0 meters (real: 14.710512124754931 meters) | Speed: 0.052725849909515884 meters/frames
+Distance: Person 3: 22.0 meters (real: 21.782170392454653 meters) | Speed: 0.07807229531345754 meters/frames
+Distance: Person 4: 13.0 meters (real: 13.175665501478528 meters) | Speed: 0.06722278317080882 meters/frames
+Distance: Person 5: 14.0 meters (real: 14.209078776493008 meters) | Speed: 0.07938032836029614 meters/frames
+
+Person 1: Total Distance from Others Persons: 4054.0 meters (real: 4053.785629756659 meters)
+Person 2: Total Distance from Others Persons: 4073.0 meters (real: 4072.6442550408287 meters)
+Person 3: Total Distance from Others Persons: 6919.0 meters (real: 6919.478630630704 meters)
+Person 4: Total Distance from Others Persons: 4778.0 meters (real: 4778.408023821443 meters)
+Person 5: Total Distance from Others Persons: 4142.0 meters (real: 4141.547599778738 meters)
+
+Loneliest Person Is Person 3: Total Distance from Others Persons: 6919.0 meters (real: 6919.478630630704 meters)
