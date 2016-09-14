@@ -1,4 +1,4 @@
-// COMMAND LINE = Input_File_Name=woodbox  Initial_Frame=1 Final_Frame=120 Output_File_Name='localSaída'
+// COMMAND LINE = Input_File_Name=woodbox  Initial_Frame=1 Final_Frame=120 Output_File_Name='Local+NomeArquivoSaída'
 // woodbox.pov
 // POV-Ray 3.5 scene file by Dan Farmer
 // Copyright POV-Team, 1995
