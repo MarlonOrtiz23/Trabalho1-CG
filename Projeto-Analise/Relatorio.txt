@@ -18,3 +18,6 @@ metros/frame). Se o arquivo tivesse a informação de quantos frames por segundo
 poderíamos ter mudado a velocidade média de "metros/frame" para "metros/segundo". O último método
 implementado é o "loneliest", o qual retorna o somatório da distância de cada pessoa teve das outras
 durante todos os frames, e assim retornando a pessoa que ficou mais isolada durante todos os frames.
+
+PS.: A pasta do projeto contêm os arquivos "Paths_D..." analisados, seguido dos arquivos "Output..."
+contendo a saída do programa para cada arquivo analisado.
