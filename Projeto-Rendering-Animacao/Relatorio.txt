@@ -22,5 +22,6 @@ possui um total de 120 frames (4 segundos de duração), os 2 primeiros segundos
 movimentação da camêra e os outros 2 segundos para a movimentação de objetos e, nesse caso
 em particular, movimentação das texturas das esferas, para dar uma movimentação de "giro".
 
-PS.: No arquivo "código.txt" contêm as adições e modificações que fiz no código usado para
-a geração dos vídeos.
+PS.: Nos códigos dos arquivos contêm, com comentários, as adições e modificações que fiz para
+a utilização do "clock". E na primeira linha de cada código possui a linha de comando que usei
+para renderizar as imagens.
