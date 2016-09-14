@@ -1,1 +1,9 @@
-Relatório:
+Relatório Projeto Rendering/Animação:
+
+O projeto de rendering/animação foi feito utilizando a linha de comando do POV-Ray para que processe, na sua renderização, uma quantidade especíica de frames, o nome do arquivo de entrada e o nome dos arquivos de saída. Os arquivos de entrada utilizados foram "biscuit.pov" e "woodbox.pov", ambos dados como exemplos pelo POV-Ray.
+
+Para realizar as mudanças nos valores dos objetos e da camêra, confome os frames vão passando, utilizamos a variável "clock" do POV-Ray. Essa variável guarda, com valores de "0" a "1", o valor correspondente à posição do frame atual. Por exemplo, caso a renderização seja de uma total de 100 frames, o primeiro frame terá o "clock" com o valor "0.01", na metade do total de frames o valor "0.5" e no último frame o valor "1". Então, em todos os casos, o valor do "clock" de "0.5" sempre corresponderá ao frame do meio (TotalFrames/2).
+
+Após a renderização das imagens, utilizamos o software "PhotoScape" para criar o vídeo (GIF). Configurando cada imagem para ser mostrada em 1/30 segundos, ou seja, os vídeos contêm 30 frames por segundo. O vídeo do arquivo "biscuit.pov" possui um total de 180 frames (6 segundos de duração), os 3 primeiros segundos são para a movimentação da camêra e os outros 3 segundos para a movimentação dos objetos. O vídeo do arquivo "woodbox.pov" possui um total de 120 frames (4 segundos de duração), os 2 primeiros segundos são para a movimentação da camêra e os outros 2 segundos para a movimentação de objetos e, nesse caso em particular, movimentação das texturas das esferas, para dar uma movimentação de "giro".
+
+PS.: No arquivo "código.txt" contêm as adições e modificações que fiz no código usado para a geração dos vídeos.
