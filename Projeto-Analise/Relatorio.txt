@@ -1,1 +1,20 @@
-Relatório:
+Relatório do Projeto de Análise:
+
+O projeto de análise foi feito em Java, com auxílio de "ArrayLists" para guardas os dados lidos
+dos arquivos. Para isso, utilizamos uma lista de lista de lista de double. a primeira lista armazena
+uma lista que condiz com cada pessoa da análise. E por fim, essa lista de pessoas contém outra lista
+de valores double, os quais correspondem aos valores dos vetores, sendo então uma lista de vetores
+fornecidos pelos arquivos de análise.
+
+Lista principal -> Lista de pessoas -> Lista de valores do vetor (x,y,tempo)
+
+O código feito possui 4 métodos, além do método principal de execução "main". O método "nextNum" é 
+utilizado para retornar o próximo número da "Scanner" passada por parâmetro. O método "reader" é o
+responsável pela leitura do arquivo, geração da lista principal com as outras listas e responsável 
+por retornar o primeiro número do arquivo, o qual corresponde ao número de pixels que tem em 1 metro.
+O próximo método é o "distanceNspeed", ele retorna uma String contendo a distância total percorrida
+por cada pessoa (valor arredondado e valor real) em metros e a velocidade média de cada uma (em
+metros/frame). Se o arquivo tivesse a informação de quantos frames por segundo o vídeo acontece,
+poderíamos ter mudado a velocidade média de "metros/frame" para "metros/segundo". O último método
+implementado é o "loneliest", o qual retorna o somatório da distância de cada pessoa teve das outras
+durante todos os frames, e assim retornando a pessoa que ficou mais isolada durante todos os frames.
